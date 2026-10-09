@@ -1,0 +1,39 @@
+/**
+ * WPCalibrate Link Repair - RTL Stylesheet
+ */
+
+.wpcalibrate-lr-wrap {
+    margin: 20px 2px 0 20px;
+}
+
+.wpcalibrate-lr-monitor-card {
+    border-left: none;
+    border-right: 4px solid var(--wpcal-primary);
+}
+
+.stat-card.stat-broken,
+.stat-card.stat-redirect,
+.stat-card.stat-warning,
+.stat-card.stat-working,
+.stat-card.stat-total {
+    border-top: 4px solid;
+}
+
+.link-type-badge {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.license-status-banner {
+    border-left: none !important;
+    border-right: 4px solid #dba617 !important;
+}
+
+.support-privacy-notice {
+    border-left: none !important;
+    border-right: 4px solid #72aee6 !important;
+}
+
+.modal-footer {
+    justify-content: flex-start;
+}
